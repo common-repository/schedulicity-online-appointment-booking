@@ -1,0 +1,129 @@
+div.schedulicity a {
+	color: #4534C7
+}
+div.schedulicity input.button-primary {
+	background-color: #4534C7;
+	border:0;
+}
+div.schedulicity input.button-primary:hover {
+	background-color: #372A9F;
+}
+div.buttons img.button-img {
+	margin-right:20px;
+	margin-bottom: 20px
+}
+div#button-align-view {
+	text-align: center;
+	width: 100%;
+	margin:0px 10%
+}
+div.button-alignment-selection {
+	display: flex;
+	flex-direction: row;
+	width:100%;
+	justify-content:center;
+	margin-bottom: 20px
+}
+div.button-alignment-selection > div {
+	margin: 10px;
+}
+div.button-alignment {
+	flex-wrap: wrap;
+}
+div#shortcode-builder h2 {
+	width: 100%;
+    text-align: center;
+}
+div#shortcode-builder {
+	display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+img.button-image {
+	margin-right: 20px
+}
+.button-panel .button-img.selected, .type-panel span.selected img, .type-panel span:last-child.selected{
+	border: 2px solid #4534c7;
+    padding: 5px;
+}
+div.button-panel{
+	width:69%;
+}
+div.button-panel > div{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	flex-wrap: wrap
+}
+div.type-panel{
+	width: 69%;
+    margin-left: 0px;
+    margin-bottom: 50px;
+}
+div.shortcode-updater{
+	height: 238px;
+	width: 30%;
+	float: left;
+	border:1px solid #ccc;
+	text-align:center;
+	margin-bottom:30px;
+}
+div.shortcode-updater *{
+	width: 90%;;
+}
+div.shortcode-updater h2, div.shortcode-updater p{
+	margin-left: 5%;
+}
+div.shortcode-updater img{
+	width: auto;
+}
+div.shortcode-updater h2{
+	text-align:center;
+}
+div.type-panel > *{
+	margin-right:20px;
+}
+div.button-panel > div *, div.type-panel > *{
+	cursor: pointer; 
+	cursor: hand;
+}
+div.shortcode-updater input{
+	background-color: rgb(240, 255, 255)
+}
+div.formsection.primary.button-panel{
+	float:left;
+}
+div.formsection.primary.button-panel h2{
+	text-align: center;
+}
+div#widgetheader {
+	margin-top: 20px;
+}
+div#widgetheader * {
+	text-align: center;
+    width: 80%;
+    margin: 0px auto 10px auto;
+}
+div.checkbox {
+	width: 18px;
+	height: 18px;
+	border: 1px dotted #ccc;
+	margin-bottom: -3px;
+}
+.checkbox.selected{
+	border: 1px dotted green;
+	line-height: 10px;
+}
+.checkbox.selected:after {
+	content: "\2713";
+	color: green;
+	font-size: 30px;
+}
+span#embeddedwidget div, span#embeddedwidget h3, span#overlaywidget div, span#overlaywidget h3{
+	display:inline-block;
+}
+@media screen and (max-width: 600px){
+	div#shortcode-builder > div {
+		width:100%;
+	}
+}
